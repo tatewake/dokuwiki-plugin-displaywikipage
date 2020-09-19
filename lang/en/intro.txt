@@ -1,8 +1,10 @@
 ====== Display Wiki Page ======
 
-//If you find the [[http://tjgrant.com/wiki/software:dokuwiki:plugin:display_wiki_page|Display Wiki Page for DokuWiki]] useful, please consider [[https://www.paypal.com/xclick/business=tjgrant%40tatewake.com&item_name=Display%20Wiki%Page%20for%20DokuWiki%20Donation&no_shipping=1&no_note=1&tax=0&currency_code=USD&lc=US|donating]].//
+===== About =====
 
 This plugin defines an additional template function such that you can display more than one wiki page at a time on any given document.
+
+===== Setup =====
 
 The plugin also exports a function for use with your template, so you will have to insert the following code into your template, at the top of the page should suffice.
 
@@ -18,6 +20,12 @@ To display a wiki page at any point in your document, use the following code:
 <?php if (function_exists('dwp_display_wiki_page')) dwp_display_wiki_page(":path:to:page"); ?>
 </code>
 
-Doing it in this fashion will allow your users to use the template whether or not you have the plugin installed.
+===== For template developers =====
 
-For updates, discussions (in english), you can visit [[http://tjgrant.com/wiki/software:dokuwiki:plugin:display_wiki_page|Plugin's homepage]].
+Using the above code in this fashion will allow your users to use the template whether or not you have the plugin installed.
+
+===== Support =====
+
+For further support or discussion, please see the official plugin page [[doku>plugin:displaywikipage|here]].
+
+If you find this plugin useful, please consider supporting the project via [[http://tjgrant.com/wiki/donate|Donations]] or [[https://github.com/sponsors/tatewake|Sponsorships]]; thank you!
