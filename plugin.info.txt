@@ -1,0 +1,7 @@
+base        displaywikipage
+author      Terence J. Grant
+email       tjgrant@tatewake.com
+date        2020-09-19
+name        Display Wiki Page Plugin 1.0.0
+desc        Plugin that defines an additional template function such that you can display more than one wiki page at a time on any given document.
+url         https://www.dokuwiki.org/plugin:displaywikipage
